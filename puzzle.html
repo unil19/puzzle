@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>picture</title>
+	<link rel="stylesheet" href="./css/puzzle.css" />
+	<script src="./js/tool.js"></script>
+	<script src="./js/puzzle.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="buttonArea">
+			<h2>趣味拼图</h2>
+			<input type="button" value="模式选择" />
+			<input type="button" value="难度选择" />
+			<input type="button" value="上张图片"/>
+			<input type="button" value="下张图片"/>
+			<input type="button"  value="开始游戏"/>
+			<input type="button" class="dis" value="放弃">
+			<div class="time">用时:<span class="timeadd">00:00:00</span></div>
+			<input type="button"  value="显示提示"/>
+			<input type="button"  class="dispear"value="隐藏提示">
+			<img src="">
+		</div>
+		<div id="box"></div>
+	</div>
+	<div class="bg"></div>
+	<ul class="alert">
+		<li class="diff">
+			<p>X</p>
+			<h3>请选择游戏难度</h3>
+			<input type="button" value="初级：3X3" />
+			<input type="button" value="中级：4X4" />
+			<input type="button" value="高级：5X5" />
+			<input type="button" value="变态：10X10" />
+		</li>
+		<li class="mode">
+			<p>X</p>
+			<h3>请选择游戏模式</h3>
+			<input type="button" value="任意拖拽" />
+			<input type="button" value="移向空白" />
+		</li>
+		<li class="suc">
+			<h3>恭喜您，拼图成功，用时<span class="totalTime"></span></h3>
+			<input type="button" value="再来一把" />
+			<input type="button" value="换个玩法" />
+		</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body,ul,li,p,h2,h3,input{padding: 0; margin: 0}
+li{list-style: none;}
+img{border:none; vertical-align: top}
+.wrap{width: 100%; height:2000%; margin: 0 auto; background: #f5f5f5;}
+.buttonArea{width: 240px; border:1px solid #CCC; position: absolute; left: 840px; padding-top: 30px; background: #2b2b37;zoom:1;}
+.buttonArea:after{content: "";display: block;clear: both;}
+h2{text-align: center;font-size: 20px;font-size: 30px;line-height: 40px; color: white}
+input{ width:100px; height: 40px; margin: 10px 10px; line-height: 40px; font-size: 20px;color: #fff;background: #449c45; border: none; outline: none;float: left;cursor: pointer;}
+input:hover{ background: orange;}
+.buttonArea img{width: 200px; height: 200px; margin:20px 20px ;transition:1s; border: none;opacity: 0;}
+.dis{background: #CCC; cursor: auto;}
+.dis:hover{background: #CCC}
+.time{color: white; line-height: 40px; font-size: 24px; padding-left: 30px; margin-bottom:20px }
+#box{border: 2px solid #000; position: relative; background: #000; margin-left: 200px;}
+#box div{ position: absolute;left: 0;top: 0;overflow: hidden;z-index: 2}
+#box .active{border: 2px dotted orange}
+#box .black{background: black; z-index: 1}
+.bg{width: 100%; height: 100%; background: #666; opacity: 0.8;position: absolute;left: 0;top:0;display: none; z-index: 10}
+.alert li{width: 400px;height: 300px; border-radius: 5px; border: 1px solid #666;background: #fff; z-index: 100; position: absolute; left:30%; top: 20%;display: none; box-shadow: 4px 4px 2px #000;}
+.alert li p{position: absolute; left: 95%; top:2%; font-weight: bold;font-size: 20px;cursor: pointer;}
+.alert li h3{ font-size: 20px; line-height: 40px; font-weight:bold; padding-left: 20px;}
+.alert li input{font-size: 16px; font-weight: bold;}
+.alert li input{margin-left: 150px;}
+.show{display: block;}
+.dispear{display: none;}
+.alert .show{display: block;}
